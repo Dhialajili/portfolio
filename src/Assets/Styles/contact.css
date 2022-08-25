@@ -1,0 +1,38 @@
+.Contact {
+  max-width: 1040px;
+  height: 500pt;
+  position: relative;
+  left: 290px;
+  top: 450pt;
+  overflow: hidden;
+}
+.Contact h1 {
+  font-size: 155px;
+  opacity: 40%;
+  color: #b2bbbf;
+}
+.Links {
+  position: relative;
+  bottom: 80pt;
+}
+#link {
+  margin-left: 40pt;
+  position: relative;
+  top: 20px;
+  color: #3e484e;
+}
+@media only screen and (max-width: 600px) {
+  .Contact {
+    left: 10px;
+    height: 400px;
+  }
+  .Contact h1 {
+    font-size: 50px;
+  }
+
+  #link {
+    width: 50px;
+    margin-left: 15px;
+    top: 50pt;
+  }
+}

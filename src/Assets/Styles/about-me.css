@@ -1,0 +1,35 @@
+.About-me {
+  max-width: 1040px;
+  position: relative;
+  left: 290px;
+  top: 300px;
+  overflow: hidden;
+}
+.About-me h1 {
+  font-size: 155px;
+  opacity: 40%;
+  color: #b2bbbf;
+}
+.About-me h5 {
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-weight: 400;
+  width: 880px;
+  position: relative;
+  bottom: 155px;
+  left: 120px;
+}
+@media only screen and (max-width: 600px) {
+  .About-me {
+    left: 20px;
+  }
+  .About-me h1 {
+    font-size: 50px;
+  }
+  .About-me h5 {
+    font-size: 15px;
+    left: 5px;
+    bottom: 30px;
+    width: 300px;
+  }
+}

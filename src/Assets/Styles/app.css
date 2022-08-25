@@ -1,0 +1,33 @@
+.App Disk {
+  position: fixed;
+  top: 200px;
+  left: -130px;
+}
+.Lang {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.Lang-list {
+  display: flex;
+  align-items: baseline;
+}
+.Lang-list h5 {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.Lang-list h5:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .Shape {
+    display: none;
+  }
+  .Lang {
+    margin-right: 30px;
+  }
+  .Lang-list h5 {
+    font-size: 12px;
+  }
+}

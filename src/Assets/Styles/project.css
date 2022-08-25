@@ -1,0 +1,82 @@
+.Project {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 1050pt;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-bottom: 200px;
+  position: relative;
+  top: 400pt;
+}
+.Project img {
+  margin-bottom: 50pt;
+  position: relative;
+  top: 50pt;
+  left: 60pt;
+}
+.Project h1 {
+  font-family: Brush Script MT;
+  font-size: 60pt;
+  font-weight: 100;
+}
+.Project h5 {
+  font-family: Seogoe UI;
+  font-size: 24px;
+  font-weight: 100;
+  position: relative;
+  margin-bottom: -10px;
+  bottom: 70pt;
+  opacity: 90%;
+  width: 395px;
+}
+h4 {
+  font-size: 40px;
+  position: relative;
+  bottom: 50px;
+  opacity: 95%;
+}
+.Description {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 90pt;
+}
+.Mobile-mockup img {
+  position: relative;
+  left: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .Project {
+    margin-left: 20px;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+    top: 250pt;
+  }
+  .Project h1 {
+    font-size: 50px;
+  }
+  .Project h5 {
+    font-size: 15px;
+    left: 5px;
+    bottom: 60px;
+    width: 300px;
+  }
+  .Project h4 {
+    font-size: 25px;
+  }
+  .Project img {
+    max-width: 300px;
+    top: 20pt;
+    left: -10px;
+    margin-bottom: 40px;
+  }
+  .Description {
+    position: relative;
+    top: 50px;
+  }
+  .Mobile-mockup img {
+    height: 300px;
+    margin-left: 5px;
+  }
+}

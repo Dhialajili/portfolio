@@ -1,0 +1,79 @@
+.Skills {
+  max-width: 1040px;
+  position: relative;
+  left: 290px;
+  top: 600px;
+  overflow: hidden;
+}
+.Skills h1 {
+  font-size: 155px;
+  opacity: 40%;
+  color: #b2bbbf;
+}
+.Skills h5 {
+  font-family: Segoe UI;
+  font-size: 32px;
+  font-weight: 420;
+  width: 200pt;
+  position: relative;
+  bottom: 200px;
+  left: 120px;
+}
+#left {
+  width: 300pt;
+}
+#right {
+  width: 340pt;
+  margin-left: 50px;
+}
+.Skills .Soft-skills {
+  display: flex;
+  align-items: baseline;
+}
+.Skills .Hard-skills {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  bottom: 50pt;
+}
+.Skills .Hard-skills #right {
+  margin-left: 140pt;
+}
+.Skills .Hard-skills #left {
+  width: 200pt;
+}
+@media only screen and (max-width: 600px) {
+  .Skills {
+    left: 50px;
+    text-align: left;
+    top: 400px;
+  }
+  .Skills h1 {
+    font-size: 50px;
+  }
+  .Skills h5 {
+    font-size: 15px;
+    left: 5px;
+    bottom: 30px;
+    width: 300px;
+  }
+  .Skills .Soft-skills {
+    display: block;
+  }
+  .Skills .Hard-skills {
+    bottom: 35px;
+  }
+  .Skills .Hard-skills #right {
+    margin-left: 10px;
+  }
+  .Skills .Hard-skills #left {
+    width: 150px;
+  }
+  #right {
+    margin-left: 0px;
+    width: 220px;
+  }
+  .Skills .Soft-skills #left {
+    width: 190px;
+  }
+}
