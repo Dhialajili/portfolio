@@ -39,7 +39,7 @@ i18n
   .use(initReactI18next) // pass the i18n instance to react-i18next.
   .init({
     backend: {
-      loadPath: "locales/{{lng}}/{{ns}}.json",
+      loadPath: "/locales",
     },
     fallbackLng, // if user computer language is not on the list of available languages, than we will be using the fallback language specified earlier
     debug: true,
