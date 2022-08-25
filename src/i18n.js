@@ -2,7 +2,6 @@ import i18n from "i18next"
 import Backend from "i18next-xhr-backend"
 import LanguageDetector from "i18next-browser-languagedetector"
 import { initReactI18next } from "react-i18next"
-
 const fallbackLng = ["en"]
 const availableLanguages = ["en", "fr"]
 
@@ -33,21 +32,16 @@ const options = {
 }
 
 i18n
-
-  .use(LanguageDetector) // detect user language
-
   .use(initReactI18next) // pass the i18n instance to react-i18next.
+  .use(LanguageDetector)
   .init({
-    backend: {
-      loadPath: "/locales",
-    },
-    fallbackLng, // if user computer language is not on the list of available languages, than we will be using the fallback language specified earlier
     debug: true,
-    whitelist: availableLanguages,
-    detection: options,
-
-    interpolation: {
-      escapeValue: false,
+    lng: "en",
+    nsSeparator: false,
+    keySeparator: false,
+    fallbackLng: false,
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
   })
 
