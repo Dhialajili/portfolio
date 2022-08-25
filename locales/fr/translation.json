@@ -1,0 +1,23 @@
+{
+  "Name": "Lajili Mohamed Dhia",
+  "AboutName": "Développeur Frontend & Concepteur UI/UX.",
+  "About": "À PROPOS",
+  "AboutDetail": "J'apprécie une structure de contenu simple, des modèles de conception épurés et des interactions réfléchies. J'aime coder des choses à partir de zéro et donner vie à des idées dans le navigateur.",
+  "Artcorner": "ArtCorner",
+  "ArtcornerDetail1": "Application Web permettant aux artistes de vendre et de présenter leurs œuvres et permettant aux professionnels de commander des œuvres d'artistes et de les réserver.",
+  "ArtcornerDetail2": "Tous les utilisateurs peuvent s’inscrire, se connecter et demander une réinitialisation de mot de passe par e-mail. Un utilisateur peut être un artiste, un professionnel ou un amateur avec l’existence d’un administrateur.",
+  "Shino": "Shino's",
+  "ShinoDetail1": "Une application web pour un restaurant pour ajouter ses plats à une carte de menu et gérer ledit menu.",
+  "ShinoDetail2": "Un employé du restaurant peut se connecter pour ajouter et gérer les plats et les commandes. Un client peut griller à travers les plats, faire une commande et contacter le restaurant.",
+  "Genshin": "Genshin App",
+  "GenshinDetail1": "Conception de GENSHIN.DD une base de données et liste de niveaux pour le jeu d’impact GENSHIN pour PC, Switch, Playstation 4, et application de jeu mobile sur iOS et Android.",
+  "GenshinDetail2": "Ce projet n'est pas associé ni soutenu par HOYOVERSE.",
+  "Contact": "CONTACTS",
+  "SkillsDetail1": "Pensée conceptuelle Wireframing & Prototyping Visual Commission.",
+  "SkillsDetail2": "Conception adaptative ",
+  "SkillsDetail3": "Adobe Illustrator Adobe Photoshop Adobe XD ",
+  "SkillsDetail4": "React",
+  "SkillsDetail5": "Symfony 5",
+  "Task1": "UI Design",
+  "Task2": "FULL Stack"
+}
