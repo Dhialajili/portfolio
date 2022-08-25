@@ -41,7 +41,7 @@ i18n
     keySeparator: false,
     fallbackLng: false,
     backend: {
-      loadPath: "portfolio/locales/{{lng}}/translation.json",
+      loadPath: "/portfolio/locales/{{lng}}/translation.json",
     },
   })
 
