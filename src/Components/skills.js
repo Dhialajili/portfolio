@@ -8,8 +8,9 @@ class Skills extends Component {
     return (
       <div className="Skills">
         <Parallax translateX={[90, 0, "ease"]} scale={[0.75, 1]}>
-          <h1>SKILLS</h1>
+          <h1 id="PC">SKILLS</h1>
         </Parallax>
+        <h1 id="Mobile">SKILLS</h1>
         <div className="Soft-skills">
           <h5 id="left">
             Wireframing & Prototyping Visual Communication Design System

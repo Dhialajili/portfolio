@@ -7,9 +7,18 @@ body {
   background-color: #f2f2f2;
   margin: 0;
 }
+#Mobile {
+  visibility: hidden;
+}
 @media only screen and (max-width: 600px) {
   .App {
     overflow-x: hidden;
+  }
+  #PC {
+    visibility: hidden;
+  }
+  #Mobile {
+    visibility: visible;
   }
 }
 code {

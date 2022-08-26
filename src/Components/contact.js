@@ -14,8 +14,9 @@ class Contact extends Component {
     return (
       <div className="Contact">
         <Parallax translateX={[90, 0, "ease"]} scale={[0.75, 1]}>
-          <h1>CONTACTS</h1>
+          <h1 id="PC">CONTACTS</h1>
         </Parallax>
+        <h1 id="Mobile">CONTACT ME</h1>
         <div className="Links">
           <Link href="https://twitter.com/dhia_lajili" target="_blank">
             <TwitterIcon id="link" sx={{ fontSize: 100 }} />

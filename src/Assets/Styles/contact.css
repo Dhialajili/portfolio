@@ -13,26 +13,36 @@
 }
 .Links {
   position: relative;
-  bottom: 80pt;
+  bottom: 325pt;
 }
 #link {
   margin-left: 40pt;
   position: relative;
   top: 20px;
+
   color: #3e484e;
 }
 @media only screen and (max-width: 600px) {
   .Contact {
+    top: 450px;
     left: 10px;
-    height: 400px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
   }
   .Contact h1 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .Links {
+    bottom: 80pt;
   }
 
   #link {
     width: 50px;
     margin-left: 15px;
     top: 50pt;
+    left: -10px;
   }
 }
