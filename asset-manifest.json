@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea574159.css",
-    "main.js": "/portfolio/static/js/main.3b1c2677.js",
+    "main.css": "/portfolio/static/css/main.d3040f63.css",
+    "main.js": "/portfolio/static/js/main.a8f6cada.js",
     "static/js/787.dbedda80.chunk.js": "/portfolio/static/js/787.dbedda80.chunk.js",
     "static/media/genshin1.png": "/portfolio/static/media/genshin1.6e616ba7c48877654111.png",
     "static/media/genshin2.png": "/portfolio/static/media/genshin2.f8f560d3615f724bb724.png",
@@ -17,12 +17,12 @@
     "static/media/menucard3.png": "/portfolio/static/media/menucard3.20de1807621d92088043.png",
     "static/media/Disk.svg": "/portfolio/static/media/Disk.e3f3b015576d0ffe6aa3a7c11d130b26.svg",
     "index.html": "/portfolio/index.html",
-    "main.ea574159.css.map": "/portfolio/static/css/main.ea574159.css.map",
-    "main.3b1c2677.js.map": "/portfolio/static/js/main.3b1c2677.js.map",
+    "main.d3040f63.css.map": "/portfolio/static/css/main.d3040f63.css.map",
+    "main.a8f6cada.js.map": "/portfolio/static/js/main.a8f6cada.js.map",
     "787.dbedda80.chunk.js.map": "/portfolio/static/js/787.dbedda80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea574159.css",
-    "static/js/main.3b1c2677.js"
+    "static/css/main.d3040f63.css",
+    "static/js/main.a8f6cada.js"
   ]
 }
