@@ -5,12 +5,10 @@ import "../../Assets/Styles/Landing.css"
 
 class Landing extends Component {
   render() {
-    const { t } = this.props
-
     return (
       <div className="Landing">
-        <h1>{t("Name")}</h1>
-        <h5>{t("AboutName")}</h5>
+        <h1>Mohamed Dhia Lajili</h1>
+        <h5>Frontend Developer & UI/UX Designer.</h5>
       </div>
     )
   }

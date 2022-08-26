@@ -11,11 +11,10 @@ import { Link } from "@mui/material"
 
 class Contact extends Component {
   render() {
-    const { t } = this.props
     return (
       <div className="Contact">
-        <Parallax translateX={[90, 0, "ease"]} scale={[0.75, 1]}>
-          <h1>{t("Contact")}</h1>
+        <Parallax translateX={[50, 0, "ease"]} scale={[0.75, 1]}>
+          <h1>CONTACT ME</h1>
         </Parallax>
         <div className="Links">
           <Link href="https://twitter.com/dhia_lajili" target="_blank">

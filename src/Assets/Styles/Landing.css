@@ -3,7 +3,7 @@
   max-width: 445pt;
   margin: auto;
   position: relative;
-  top: 100pt;
+  top: 150pt;
 }
 .Landing h1 {
   font-family: Brush Script MT;
@@ -19,6 +19,9 @@
   opacity: 90%;
 }
 @media only screen and (max-width: 600px) {
+  .Landing {
+    top: 200px;
+  }
   .Landing h1 {
     font-size: 40px;
   }

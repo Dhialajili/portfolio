@@ -35,25 +35,23 @@ function Project(props) {
 
 class Projects extends Component {
   render() {
-    const { t } = this.props
-
     return (
       <div>
         <Project
-          name={t("Artcorner")}
-          task={t("Task2")}
-          detail1={t("ArtcornerDetail1")}
-          detail2={t("ArtcornerDetail2")}
+          name="ArtCorner"
+          task="FULLSTACK"
+          detail1="A web application for artist to sell and showcase their artworks and allows professionals to comission artist and reserve artworks."
+          detail2="Any users can register, login and request a password reset via email. A user can be either an artist, a professional or an amateur with the existance of an administrator."
           mockup1={Artcorner1}
           mockup2={Artcorner2}
           mockup3={Artcorner3}
           mockup4={Artcorner4}
         />
         <Project
-          name={t("Shino")}
-          task={t("Task2")}
-          detail1={t("ShinoDetail1")}
-          detail2={t("ShinoDetail2")}
+          name="Shino's"
+          task="FULLSTACK"
+          detail1="A web application for a restaurant to add it's dishes to a menu card and manage said menu."
+          detail2="An employee of the restaurant can login to add and manage dishes and orders. A customer can browes through the dishes, make an order and contact the restaurant."
           mockup1={Shinos1}
           mockup2={Shinos2}
           mockup3={Shinos3}
@@ -61,10 +59,10 @@ class Projects extends Component {
         />
         <div className="Mobile-mockup">
           <Project
-            name={t("Genshin")}
-            task={t("Task1")}
-            detail1={t("GenshinDetail1")}
-            detail2={t("GenshinDetail2")}
+            name="Genshin.DD"
+            task="UI DESIGN"
+            detail1="Design of GENSHIN.DD a Database and Tier List for the GENSHIN impact game for PC, Switch, Playstation 4, and mobile game app on iOS and Android."
+            detail2="This project is not affiliated with or endorsed by HOYOVERSE."
             mockup1={Genshin1}
             mockup2={Genshin2}
             mockup3={Genshin3}

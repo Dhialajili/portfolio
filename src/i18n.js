@@ -1,5 +1,6 @@
 import i18n from "i18next"
 import Backend from "i18next-xhr-backend"
+import XHR from "i18next-xhr-backend"
 import LanguageDetector from "i18next-browser-languagedetector"
 import { initReactI18next } from "react-i18next"
 const fallbackLng = ["en"]
@@ -32,8 +33,10 @@ const options = {
 }
 
 i18n
+  .use(XHR)
   .use(initReactI18next) // pass the i18n instance to react-i18next.
   .use(LanguageDetector)
+
   .init({
     debug: true,
     lng: "en",
@@ -41,7 +44,8 @@ i18n
     keySeparator: false,
     fallbackLng: false,
     backend: {
-      loadPath: "/portfolio/locales/{{lng}}/translation.json",
+      loadPath: "/locales/{{lng}}/{{ns}.json",
+      addPath: "locales/add/{{lng}}/{{ns}}",
     },
   })
 

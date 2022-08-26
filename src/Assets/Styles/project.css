@@ -39,7 +39,7 @@ h4 {
 .Description {
   position: sticky;
   position: -webkit-sticky;
-  top: 90pt;
+  top: 60pt;
 }
 .Mobile-mockup img {
   position: relative;
@@ -64,6 +64,7 @@ h4 {
   }
   .Project h4 {
     font-size: 25px;
+    bottom: 40px;
   }
   .Project img {
     max-width: 300px;

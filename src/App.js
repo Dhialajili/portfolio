@@ -17,14 +17,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Lang">
-          <div className="Lang-list">
-            <h5 onClick={() => this.handleClick("en")}>EN</h5>
-            <h5>|</h5>
-            <h5 onClick={() => this.handleClick("fr")}>FR</h5>
-          </div>
-        </div>
-
         <Landing />
         <div className="Shape">
           <Disk style={{ position: "fixed", top: 200, left: -130 }} />
