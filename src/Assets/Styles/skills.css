@@ -49,7 +49,9 @@
     top: 400px;
   }
   .Skills h1 {
-    font-size: 50px;
+    font-size: 60px;
+    position: relative;
+    left: 160px;
   }
   .Skills h5 {
     font-size: 15px;

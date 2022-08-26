@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width: 600px) {
   .Landing {
-    top: 200px;
+    top: 200pt;
   }
   .Landing h1 {
     font-size: 40px;

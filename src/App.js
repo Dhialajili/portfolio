@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { withTranslation } from "react-i18next"
-import i18next from "i18next"
+
 import Landing from "./Components/Home/Landing"
 import AboutMe from "./Components/about-me"
 import Contact from "./Components/contact"
@@ -10,10 +10,6 @@ import Projects from "./Components/project"
 import Skills from "./Components/skills"
 
 class App extends Component {
-  handleClick(lang) {
-    i18next.changeLanguage(lang)
-  }
-
   render() {
     return (
       <div className="App">

@@ -25,7 +25,9 @@
     top: 400px;
   }
   .About-me h1 {
-    font-size: 50px;
+    font-size: 60px;
+    position: relative;
+    left: 160px;
   }
   .About-me h5 {
     font-size: 15px;
